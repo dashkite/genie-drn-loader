@@ -1,15 +1,15 @@
 {
-  "name": "@dashkite/genie-drn-loader",
+  "name": "@dashkite/drn-loader",
   "version": "0.0.0",
   "description": "Auto-loads DRN resolvers",
   "keywords": [],
-  "homepage": "https://github.com/dashkite/genie-drn-loader#readme",
+  "homepage": "https://github.com/dashkite/drn-loader#readme",
   "bugs": {
-    "url": "https://github.com/dashkite/genie-drn-loader/issues"
+    "url": "https://github.com/dashkite/drn-loader/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dashkite/genie-drn-loader.git"
+    "url": "git+https://github.com/dashkite/drn-loader.git"
   },
   "license": "SEE LICENSE IN LICENSE.md",
   "author": "Daniel Yoder",

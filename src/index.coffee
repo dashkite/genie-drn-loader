@@ -12,7 +12,7 @@ Pkg =
 
 Resolvers =
 
-  load: ->
+  load: load = ->
     pkg = await do Pkg.read    
     for qname in Object.keys pkg.devDependencies
       name = Pkg.getName qname
@@ -21,3 +21,4 @@ Resolvers =
           paths: [ "./node_modules" ]
 
 export default Resolvers
+export { load }
